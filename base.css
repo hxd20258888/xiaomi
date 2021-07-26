@@ -1,0 +1,22 @@
+/* 公共样式 */
+/* 解决高度塌陷问题 */
+.clearfix::before,
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+body {
+  font: 14px/1.5 Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;
+  color: #333;
+  min-width: 1226px;   /*给body设置一个最小的宽度，防止当页面缩小是，页面布局紊乱*/
+}
+/* 除去a的下划线 */
+a {
+  text-decoration: none;
+  /* color: #333; */
+}
+li {
+  list-style: none;
+  
+}
